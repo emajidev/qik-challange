@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Carlos Mendoza",
+    "email": "carlos.mendoza@example.com",
+    "phone": "+51987654321",
+    "vehicle": {
+      "model": "Toyota Corolla",
+      "plate": "ABC123",
+      "color": "Blanco",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02824, -12.04318]
+    },
+    "available": true,
+    "rating": 4.5
+  },
+  {
+    "name": "María Fernández",
+    "email": "maria.fernandez@example.com",
+    "phone": "+51987654322",
+    "vehicle": {
+      "model": "Nissan Sentra",
+      "plate": "DEF456",
+      "color": "Negro",
+      "year": 2019
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03012, -12.04567]
+    },
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "name": "Juan Pérez",
+    "email": "juan.perez@example.com",
+    "phone": "+51987654323",
+    "vehicle": {
+      "model": "Hyundai Accent",
+      "plate": "GHI789",
+      "color": "Rojo",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03245, -12.04231]
+    },
+    "available": false,
+    "rating": 4.2
+  },
+  {
+    "name": "Luisa Ramírez",
+    "email": "luisa.ramirez@example.com",
+    "phone": "+51987654324",
+    "vehicle": {
+      "model": "Kia Rio",
+      "plate": "JKL012",
+      "color": "Azul",
+      "year": 2018
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03567, -12.04789]
+    },
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Pedro Gómez",
+    "email": "pedro.gomez@example.com",
+    "phone": "+51987654325",
+    "vehicle": {
+      "model": "Volkswagen Vento",
+      "plate": "MNO345",
+      "color": "Gris",
+      "year": 2022
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02876, -12.04912]
+    },
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "name": "Ana Torres",
+    "email": "ana.torres@example.com",
+    "phone": "+51987654326",
+    "vehicle": {
+      "model": "Chevrolet Spark",
+      "plate": "PQR678",
+      "color": "Blanco",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03321, -12.04098]
+    },
+    "available": false,
+    "rating": 4.0
+  },
+  {
+    "name": "Jorge Castro",
+    "email": "jorge.castro@example.com",
+    "phone": "+51987654327",
+    "vehicle": {
+      "model": "Suzuki Swift",
+      "plate": "STU901",
+      "color": "Amarillo",
+      "year": 2019
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03654, -12.04376]
+    },
+    "available": true,
+    "rating": 4.6
+  },
+  {
+    "name": "Sofía Herrera",
+    "email": "sofia.herrera@example.com",
+    "phone": "+51987654328",
+    "vehicle": {
+      "model": "Mazda 2",
+      "plate": "VWX234",
+      "color": "Rojo",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02987, -12.04653]
+    },
+    "available": true,
+    "rating": 4.4
+  },
+  {
+    "name": "Miguel Díaz",
+    "email": "miguel.diaz@example.com",
+    "phone": "+51987654329",
+    "vehicle": {
+      "model": "Renault Logan",
+      "plate": "YZA567",
+      "color": "Negro",
+      "year": 2018
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03432, -12.04876]
+    },
+    "available": false,
+    "rating": 4.1
+  },
+  {
+    "name": "Elena Ruiz",
+    "email": "elena.ruiz@example.com",
+    "phone": "+51987654330",
+    "vehicle": {
+      "model": "Ford Fiesta",
+      "plate": "BCD890",
+      "color": "Azul",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03109, -12.04123]
+    },
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "name": "Ricardo Vargas",
+    "email": "ricardo.vargas@example.com",
+    "phone": "+51987654331",
+    "vehicle": {
+      "model": "Honda Civic",
+      "plate": "EFG123",
+      "color": "Plateado",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03765, -12.04432]
+    },
+    "available": true,
+    "rating": 4.3
+  },
+  {
+    "name": "Laura Medina",
+    "email": "laura.medina@example.com",
+    "phone": "+51987654332",
+    "vehicle": {
+      "model": "Mitsubishi Mirage",
+      "plate": "HIJ456",
+      "color": "Verde",
+      "year": 2019
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03987, -12.04215]
+    },
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "name": "Fernando Rojas",
+    "email": "fernando.rojas@example.com",
+    "phone": "+51987654333",
+    "vehicle": {
+      "model": "Peugeot 208",
+      "plate": "KLM789",
+      "color": "Blanco",
+      "year": 2022
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02543, -12.04765]
+    },
+    "available": false,
+    "rating": 4.0
+  },
+  {
+    "name": "Daniela Castro",
+    "email": "daniela.castro@example.com",
+    "phone": "+51987654334",
+    "vehicle": {
+      "model": "Jeep Renegade",
+      "plate": "NOP012",
+      "color": "Naranja",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02234, -12.04321]
+    },
+    "available": true,
+    "rating": 4.9
+  },
+  {
+    "name": "Roberto Silva",
+    "email": "roberto.silva@example.com",
+    "phone": "+51987654335",
+    "vehicle": {
+      "model": "Subaru XV",
+      "plate": "QRS345",
+      "color": "Azul Marino",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02678, -12.04567]
+    },
+    "available": true,
+    "rating": 4.5
+  },
+  {
+    "name": "Gabriela Torres",
+    "email": "gabriela.torres@example.com",
+    "phone": "+51987654336",
+    "vehicle": {
+      "model": "BMW Serie 1",
+      "plate": "TUV678",
+      "color": "Negro",
+      "year": 2022
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02456, -12.04198]
+    },
+    "available": false,
+    "rating": 4.7
+  },
+  {
+    "name": "José Quispe",
+    "email": "jose.quispe@example.com",
+    "phone": "+51987654337",
+    "vehicle": {
+      "model": "Mercedes-Benz Clase A",
+      "plate": "WXY901",
+      "color": "Blanco Perlado",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02345, -12.04876]
+    },
+    "available": true,
+    "rating": 4.6
+  },
+  {
+    "name": "Carmen Loyola",
+    "email": "carmen.loyola@example.com",
+    "phone": "+51987654338",
+    "vehicle": {
+      "model": "Audi A3",
+      "plate": "ZAB234",
+      "color": "Gris Grafito",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02789, -12.04234]
+    },
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "name": "Luis Navarro",
+    "email": "luis.navarro@example.com",
+    "phone": "+51987654339",
+    "vehicle": {
+      "model": "Volvo S60",
+      "plate": "CDE567",
+      "color": "Azul Oscuro",
+      "year": 2019
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02901, -12.04678]
+    },
+    "available": false,
+    "rating": 4.3
+  },
+  {
+    "name": "Patricia Ruiz",
+    "email": "patricia.ruiz@example.com",
+    "phone": "+51987654340",
+    "vehicle": {
+      "model": "Lexus UX",
+      "plate": "FGH890",
+      "color": "Rojo",
+      "year": 2022
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03123, -12.04456]
+    },
+    "available": true,
+    "rating": 4.9
+  }
+]
