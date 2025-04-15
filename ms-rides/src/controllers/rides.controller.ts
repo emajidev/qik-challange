@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Patch, Body, Param, Query, Put } from '@nestjs/common';
+import { Controller, Get, Post, Patch, Body, Param, Query, Put, UsePipes } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { RideUseCases } from 'src/use-cases/rides/rides.use-case';
 import { CreateRideDTO, UpdateRideDTO, FindByIdDTO } from 'src/core/dtos/rides/rides.dto';
@@ -7,8 +7,11 @@ import { FilterPaginationQuery } from 'src/core/dtos/pagination/paginateRequest.
 @ApiTags('Rides')
 @Controller('rides')
 export class RidesController {
-  constructor(private readonly rideUseCases: RideUseCases) { }
-
+  constructor(private readonly rideUseCases: RideUseCases) {
+    if (!this.rideUseCases) {
+      throw new Error('RideUseCases must be provided');
+    }
+  }
   @Post()
   @ApiOperation({ summary: 'Create a new ride' })
   @ApiResponse({ status: 201, description: 'Ride created successfully' })

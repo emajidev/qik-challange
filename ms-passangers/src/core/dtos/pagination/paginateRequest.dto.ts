@@ -78,13 +78,6 @@ export class FilterPaginationQueryLocation extends FilterPagination {
     @IsNumberString()
     latitud: number
 
-    @ApiProperty({
-        description: 'Search in distance range (KM)',
-        minimum: 100,
-        default: 3000,
-    })
-    @IsNumberString()
-    distance: number
     constructor(filter: FilterPaginationQueryOptions) {
         super(filter);
         this.filter = filter?.filter

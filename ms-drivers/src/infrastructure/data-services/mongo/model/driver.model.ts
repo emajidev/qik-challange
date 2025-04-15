@@ -28,5 +28,5 @@ export const DriverSchema = new Schema<IDriverDocument>(
 // Índice geoespacial para búsquedas por ubicación
 DriverSchema.index({ location: '2dsphere' });
 
-export const DriverModel = model<IDriverDocument>('Drivers', DriverSchema);
+export const DriverModel = model<IDriverDocument>('drivers', DriverSchema);
 

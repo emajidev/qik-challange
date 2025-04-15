@@ -13,6 +13,18 @@ export class RideUseCases {
   constructor(private readonly ridesRepository: RidesMongoRepository) { }
 
   async createRide(createRideDTO: CreateRideDTO) {
+
+    const findRides = await this.ridesRepository.findOne({
+      $or: [
+        { passanger_id: createRideDTO?.passanger_id },
+        { driver_id: createRideDTO?.driver_id, }],
+      status: { $in: [EStatusRide.pending, EStatusRide.in_progress] }
+    })
+    if (findRides) {
+      throw new HttpException("driver_id or passanger_id already has an active ride(pending or in progress", HttpStatusCode.BadRequest)
+    }
+
+
     const ride: IRide = {
       _id: new Types.ObjectId(),
       ...createRideDTO,

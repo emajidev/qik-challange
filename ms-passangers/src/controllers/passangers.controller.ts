@@ -1,7 +1,7 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
 import { PassangersPaginatedResponseDto, FindByIdDTO, IPassangers, PageDto } from 'src/core';
-import { FilterPaginationQuery, FilterPaginationQueryLocation, FilterPaginationQueryLocationAggregate } from 'src/core/dtos/pagination/paginateRequest.dto';
+import { FilterPaginationQuery, FilterPaginationQueryLocation } from 'src/core/dtos/pagination/paginateRequest.dto';
 import { PassangersUseCases } from 'src/use-cases/passangers/passangers.use-case';
 
 @ApiTags('passangers')
@@ -25,11 +25,11 @@ export class passangersController {
     return this.passangersUseCases.getAllpassangersAvailable(paginateOptions)
   }
 
-  @Get('/available/distance')
+  @Get('/available/near')
   @ApiOkResponse({ type: PassangersPaginatedResponseDto})
   
-  async getAllAvailableByDistance(
-    @Query() filter: FilterPaginationQueryLocationAggregate
+  async getAllpassangersAvailableNear(
+    @Query() filter: FilterPaginationQueryLocation
   ): Promise<PageDto<IPassangers>> {
     return this.passangersUseCases.getAllpassangersAvailableNear(filter)
   }

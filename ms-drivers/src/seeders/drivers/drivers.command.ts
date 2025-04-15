@@ -8,7 +8,7 @@ import axios from 'axios';
 @Injectable()
 export class DriversCommand {
   constructor(
-    @InjectModel('Drivers') private readonly driverModel: Model<IDriverDocument>,
+    @InjectModel('drivers') private readonly driverModel: Model<IDriverDocument>,
   ) { }
 
   @Command({

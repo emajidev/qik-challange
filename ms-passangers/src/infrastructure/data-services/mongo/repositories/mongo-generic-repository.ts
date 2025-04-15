@@ -136,7 +136,7 @@ export abstract class MongoGenericRepository<
     paginateOptions: FilterPaginationQueryAggregate,
   ): Promise<PageDto<T>> {
     const query = [...(paginateOptions?.filter && paginateOptions?.filter || { $match: {} })]
-
+    console.log(JSON.stringify(query))
     const total = await this.aggregate(query);
     if (!paginateOptions?.limit) {
       paginateOptions.limit = total

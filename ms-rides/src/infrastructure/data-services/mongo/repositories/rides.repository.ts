@@ -10,7 +10,7 @@ import { IRideDocument } from 'src/core/interfaces/rides';
 export class RidesMongoRepository
     extends MongoGenericRepository<IRideDocument> {
     constructor(
-        @InjectModel("Rides")
+        @InjectModel("rides")
         private model: Model<IRideDocument>,
     ) {
         super(model);

@@ -6,7 +6,7 @@ import { RidesMongoRepository } from './repositories/rides.repository';
 @Module({
   imports: [
     MongooseModule.forFeature([
-      { name: "Rides", schema: RideSchema, collection: "Rides" },
+      { name: "rides", schema: RideSchema, collection: "rides" },
     ]),
   ],
   providers: [RidesMongoRepository],

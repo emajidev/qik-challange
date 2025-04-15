@@ -6,7 +6,7 @@ import { DriversMongoRepository } from './repositories/drivers.repository';
 @Module({
   imports: [
     MongooseModule.forFeature([
-      { name: "Drivers", schema: DriverSchema, collection: "Drivers" },
+      { name: "drivers", schema: DriverSchema, collection: "drivers" },
     ]),
   ],
   providers: [DriversMongoRepository],

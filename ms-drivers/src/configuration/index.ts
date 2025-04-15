@@ -4,7 +4,7 @@ ConfigModule.forRoot();
 
 export default {
   port: parseInt(process.env.PORT as string, 10) || 3000,
-  prefix: '/drives/api',
+  prefix: '/ms-drives/api/v1',
   mongoUri: process.env.MONGODB_URI,
   msName: "Microservice drivers"
 }

@@ -1,0 +1,211 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439011",
+    "name": "Juan Pérez",
+    "email": "juan.perez@example.com",
+    "phone": "+51987654321",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.0282, -12.0432]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439012",
+    "name": "María García",
+    "email": "maria.garcia@example.com",
+    "phone": "+51987654322",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.0582, -12.0732]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439013",
+    "name": "Carlos López",
+    "email": "carlos.lopez@example.com",
+    "phone": "+51987654323",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.0882, -12.1032]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439014",
+    "name": "Ana Martínez",
+    "email": "ana.martinez@example.com",
+    "phone": "+51987654324",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.1182, -12.1332]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439015",
+    "name": "Luis Rodríguez",
+    "email": "luis.rodriguez@example.com",
+    "phone": "+51987654325",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.1482, -12.1632]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439016",
+    "name": "Sofía González",
+    "email": "sofia.gonzalez@example.com",
+    "phone": "+51987654326",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.1782, -12.1932]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439017",
+    "name": "Miguel Sánchez",
+    "email": "miguel.sanchez@example.com",
+    "phone": "+51987654327",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.2082, -12.2232]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439018",
+    "name": "Laura Fernández",
+    "email": "laura.fernandez@example.com",
+    "phone": "+51987654328",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.2382, -12.2532]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439019",
+    "name": "Jorge Torres",
+    "email": "jorge.torres@example.com",
+    "phone": "+51987654329",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.2682, -12.2832]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439020",
+    "name": "Carmen Ruiz",
+    "email": "carmen.ruiz@example.com",
+    "phone": "+51987654330",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.2982, -12.3132]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439021",
+    "name": "Diego Díaz",
+    "email": "diego.diaz@example.com",
+    "phone": "+51987654331",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.3282, -12.3432]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439022",
+    "name": "Patricia Morales",
+    "email": "patricia.morales@example.com",
+    "phone": "+51987654332",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.3582, -12.3732]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439023",
+    "name": "Roberto Vargas",
+    "email": "roberto.vargas@example.com",
+    "phone": "+51987654333",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.3882, -12.4032]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439024",
+    "name": "Elena Castro",
+    "email": "elena.castro@example.com",
+    "phone": "+51987654334",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.4182, -12.4332]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439025",
+    "name": "Fernando Ortega",
+    "email": "fernando.ortega@example.com",
+    "phone": "+51987654335",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.4482, -12.4632]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439026",
+    "name": "Isabel Mendoza",
+    "email": "isabel.mendoza@example.com",
+    "phone": "+51987654336",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.4782, -12.4932]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439027",
+    "name": "Ricardo Silva",
+    "email": "ricardo.silva@example.com",
+    "phone": "+51987654337",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.5082, -12.5232]
+    },
+    "available": false
+  },
+  {
+    "_id": "507f1f77bcf86cd799439028",
+    "name": "Verónica Ríos",
+    "email": "veronica.rios@example.com",
+    "phone": "+51987654338",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.5382, -12.5532]
+    },
+    "available": true
+  },
+  {
+    "_id": "507f1f77bcf86cd799439029",
+    "name": "Héctor Flores",
+    "email": "hector.flores@example.com",
+    "phone": "+51987654339",
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.5682, -12.5832]
+    },
+    "available": true
+  }
+]

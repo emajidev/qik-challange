@@ -7,9 +7,9 @@ import { RidesCommand } from './rides/rides.command';
   imports: [
     MongooseModule.forFeature([
       {
-        name: 'Rides',
+        name: 'rides',
         schema: RideSchema,
-        collection: 'Rides',
+        collection: 'rides',
       },
     ]),
   ],

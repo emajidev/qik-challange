@@ -1,53 +1,402 @@
 [
   {
-    "name": "Carlos Mendoza",
-    "email": "carlos.mendoza@example.com",
-    "phone": "+51987654321",
-    "vehicle": {
-      "model": "Toyota Corolla",
-      "plate": "ABC123",
-      "color": "Blanco",
-      "year": 2020
-    },
-    "location": {
+    "_id": "507f1f77bcf86cd799439011",
+    "passanger_id": "507f1f77bcf86cd799439012",
+    "driver_id": "507f1f77bcf86cd799439013",
+    "status": "completed",
+    "pickup_location": {
       "type": "Point",
-      "coordinates": [-77.02824, -12.04318]
+      "coordinates": [-74.006, 40.7128],
+      "address": "Times Square, New York"
     },
-    "available": true,
-    "rating": 4.5
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.935242, 40.730610],
+      "address": "Central Park, New York"
+    },
+    "price": 25.50,
+    "distance": 5.2,
+    "duration": 15,
+    "started_at": "2024-04-01T10:00:00Z",
+    "completed_at": "2024-04-01T10:15:00Z"
   },
   {
-    "name": "María Fernández",
-    "email": "maria.fernandez@example.com",
-    "phone": "+51987654322",
-    "vehicle": {
-      "model": "Nissan Sentra",
-      "plate": "DEF456",
-      "color": "Negro",
-      "year": 2019
-    },
-    "location": {
+    "_id": "507f1f77bcf86cd799439021",
+    "passanger_id": "507f1f77bcf86cd799439022",
+    "driver_id": "507f1f77bcf86cd799439023",
+    "status": "in_progress",
+    "pickup_location": {
       "type": "Point",
-      "coordinates": [-77.03012, -12.04567]
+      "coordinates": [-73.985130, 40.758896],
+      "address": "Rockefeller Center, New York"
     },
-    "available": true,
-    "rating": 4.8
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.977622, 40.753182],
+      "address": "Grand Central Terminal, New York"
+    },
+    "price": 18.75,
+    "distance": 3.8,
+    "duration": 12,
+    "started_at": "2024-04-01T11:30:00Z"
   },
   {
-    "name": "Juan Pérez",
-    "email": "juan.perez@example.com",
-    "phone": "+51987654323",
-    "vehicle": {
-      "model": "Hyundai Accent",
-      "plate": "GHI789",
-      "color": "Rojo",
-      "year": 2021
-    },
-    "location": {
+    "_id": "507f1f77bcf86cd799439031",
+    "passanger_id": "507f1f77bcf86cd799439032",
+    "driver_id": "507f1f77bcf86cd799439033",
+    "status": "pending",
+    "pickup_location": {
       "type": "Point",
-      "coordinates": [-77.03245, -12.04231]
+      "coordinates": [-73.968565, 40.785091],
+      "address": "Museum of Natural History, New York"
     },
-    "available": false,
-    "rating": 4.2
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "price": 22.00,
+    "distance": 4.5,
+    "duration": 14
+  },
+  {
+    "_id": "507f1f77bcf86cd799439041",
+    "passanger_id": "507f1f77bcf86cd799439042",
+    "driver_id": "507f1f77bcf86cd799439043",
+    "status": "cancelled",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "price": 15.25,
+    "distance": 2.8,
+    "duration": 10
+  },
+  {
+    "_id": "507f1f77bcf86cd799439051",
+    "passanger_id": "507f1f77bcf86cd799439052",
+    "driver_id": "507f1f77bcf86cd799439053",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.966250, 40.783060],
+      "address": "American Museum of Natural History, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "price": 20.00,
+    "distance": 4.0,
+    "duration": 13,
+    "started_at": "2024-04-01T14:00:00Z",
+    "completed_at": "2024-04-01T14:13:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439061",
+    "passanger_id": "507f1f77bcf86cd799439062",
+    "driver_id": "507f1f77bcf86cd799439063",
+    "status": "in_progress",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "price": 16.50,
+    "distance": 3.2,
+    "duration": 11,
+    "started_at": "2024-04-01T15:00:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439071",
+    "passanger_id": "507f1f77bcf86cd799439072",
+    "driver_id": "507f1f77bcf86cd799439073",
+    "status": "pending",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "price": 12.75,
+    "distance": 2.5,
+    "duration": 8
+  },
+  {
+    "_id": "507f1f77bcf86cd799439081",
+    "passanger_id": "507f1f77bcf86cd799439082",
+    "driver_id": "507f1f77bcf86cd799439083",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.977622, 40.753182],
+      "address": "Grand Central Terminal, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985130, 40.758896],
+      "address": "Rockefeller Center, New York"
+    },
+    "price": 14.25,
+    "distance": 2.8,
+    "duration": 9,
+    "started_at": "2024-04-01T17:00:00Z",
+    "completed_at": "2024-04-01T17:09:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439091",
+    "passanger_id": "507f1f77bcf86cd799439092",
+    "driver_id": "507f1f77bcf86cd799439093",
+    "status": "in_progress",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "price": 19.50,
+    "distance": 3.5,
+    "duration": 12,
+    "started_at": "2024-04-01T18:00:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439101",
+    "passanger_id": "507f1f77bcf86cd799439102",
+    "driver_id": "507f1f77bcf86cd799439103",
+    "status": "pending",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "price": 13.75,
+    "distance": 2.6,
+    "duration": 8
+  },
+  {
+    "_id": "507f1f77bcf86cd799439111",
+    "passanger_id": "507f1f77bcf86cd799439112",
+    "driver_id": "507f1f77bcf86cd799439113",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "price": 17.25,
+    "distance": 3.2,
+    "duration": 11,
+    "started_at": "2024-04-01T20:00:00Z",
+    "completed_at": "2024-04-01T20:11:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439121",
+    "passanger_id": "507f1f77bcf86cd799439122",
+    "driver_id": "507f1f77bcf86cd799439123",
+    "status": "in_progress",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "price": 12.50,
+    "distance": 2.4,
+    "duration": 8,
+    "started_at": "2024-04-01T21:00:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439131",
+    "passanger_id": "507f1f77bcf86cd799439132",
+    "driver_id": "507f1f77bcf86cd799439133",
+    "status": "pending",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.977622, 40.753182],
+      "address": "Grand Central Terminal, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985130, 40.758896],
+      "address": "Rockefeller Center, New York"
+    },
+    "price": 15.00,
+    "distance": 2.7,
+    "duration": 9
+  },
+  {
+    "_id": "507f1f77bcf86cd799439141",
+    "passanger_id": "507f1f77bcf86cd799439142",
+    "driver_id": "507f1f77bcf86cd799439143",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "price": 18.75,
+    "distance": 3.3,
+    "duration": 11,
+    "started_at": "2024-04-01T23:00:00Z",
+    "completed_at": "2024-04-01T23:11:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439151",
+    "passanger_id": "507f1f77bcf86cd799439152",
+    "driver_id": "507f1f77bcf86cd799439153",
+    "status": "in_progress",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "price": 13.25,
+    "distance": 2.5,
+    "duration": 8,
+    "started_at": "2024-04-02T00:00:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439161",
+    "passanger_id": "507f1f77bcf86cd799439162",
+    "driver_id": "507f1f77bcf86cd799439163",
+    "status": "pending",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "price": 16.00,
+    "distance": 3.1,
+    "duration": 10
+  },
+  {
+    "_id": "507f1f77bcf86cd799439171",
+    "passanger_id": "507f1f77bcf86cd799439172",
+    "driver_id": "507f1f77bcf86cd799439173",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "price": 12.75,
+    "distance": 2.4,
+    "duration": 8,
+    "started_at": "2024-04-02T02:00:00Z",
+    "completed_at": "2024-04-02T02:08:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439181",
+    "passanger_id": "507f1f77bcf86cd799439182",
+    "driver_id": "507f1f77bcf86cd799439183",
+    "status": "in_progress",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.977622, 40.753182],
+      "address": "Grand Central Terminal, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.985130, 40.758896],
+      "address": "Rockefeller Center, New York"
+    },
+    "price": 14.50,
+    "distance": 2.6,
+    "duration": 9,
+    "started_at": "2024-04-02T03:00:00Z"
+  },
+  {
+    "_id": "507f1f77bcf86cd799439191",
+    "passanger_id": "507f1f77bcf86cd799439192",
+    "driver_id": "507f1f77bcf86cd799439193",
+    "status": "pending",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.973000, 40.764000],
+      "address": "Columbus Circle, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.981205, 40.779437],
+      "address": "Central Park Zoo, New York"
+    },
+    "price": 17.50,
+    "distance": 3.2,
+    "duration": 11
+  },
+  {
+    "_id": "507f1f77bcf86cd799439201",
+    "passanger_id": "507f1f77bcf86cd799439202",
+    "driver_id": "507f1f77bcf86cd799439203",
+    "status": "completed",
+    "pickup_location": {
+      "type": "Point",
+      "coordinates": [-73.985428, 40.748817],
+      "address": "Empire State Building, New York"
+    },
+    "dropoff_location": {
+      "type": "Point",
+      "coordinates": [-73.993386, 40.750500],
+      "address": "Madison Square Garden, New York"
+    },
+    "price": 13.00,
+    "distance": 2.3,
+    "duration": 7,
+    "started_at": "2024-04-02T05:00:00Z",
+    "completed_at": "2024-04-02T05:07:00Z"
   }
 ] 

@@ -7,9 +7,9 @@ import { DriversCommand } from './drivers/drivers.command';
   imports: [
     MongooseModule.forFeature([
       {
-        name: 'Drivers',
+        name: 'drivers',
         schema: DriverSchema,
-        collection: 'Drivers',
+        collection: 'drivers',
       },
 
     ])

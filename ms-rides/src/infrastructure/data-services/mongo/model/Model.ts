@@ -1,13 +1,21 @@
-import { Schema } from 'mongoose';
+import * as mongoose from 'mongoose';
 
-export const schemaBase = {
-  created_at: { type: Date, default: Date.now },
-  updated_at: { type: Date, default: Date.now },
-};
-
-export const schemaOptions = {
-  timestamps: true,
+const Schema = mongoose.Schema;
+// const Document = mongoose.Document;
+const schemaOptions = {
   versionKey: false,
 };
+const schemaBase = {
+  created_by: Schema.Types.ObjectId,
+  created_at: {
+    type: Schema.Types.Date,
+    default: new Date(),
+  },
+  updated_at: {
+    type: Schema.Types.Date,
+    default: new Date(),
+  },
+  deleted_at: Schema.Types.Date,
+};
 
-export { Schema };
+export { schemaOptions, mongoose, Schema, schemaBase };

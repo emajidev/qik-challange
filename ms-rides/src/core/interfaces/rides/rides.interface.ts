@@ -2,14 +2,14 @@ import { Document, Types } from "mongoose";
 import { EStatusRide } from "src/core/enums";
 
 interface IGeoPoint {
-    type: 'Point';
+    type?: 'Point';
     coordinates: [number, number];
     address: string;
 }
 
 export interface IRide {
     _id: Types.ObjectId;
-    rider_id: Types.ObjectId;
+    passanger_id: Types.ObjectId;
     driver_id: Types.ObjectId;
     status: EStatusRide;
     pickup_location: IGeoPoint;

@@ -7,7 +7,7 @@ import { MongoGenericRepository } from './mongo-generic-repository';
 
 
 @Injectable()
-export class passangersMongoRepository
+export class PassangersMongoRepository
     extends MongoGenericRepository<IPassangersDocument> {
     constructor(
         @InjectModel("passangers")

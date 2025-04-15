@@ -7,8 +7,8 @@ import { model } from "mongoose";
 export const RideSchema = new Schema<IRideDocument>(
   {
     _id: { type: Schema.Types.ObjectId, required: true },
-    rider_id: { type: Schema.Types.ObjectId, ref: 'Rides', required: true },
-    driver_id: { type: Schema.Types.ObjectId, ref: 'Rides', required: true },
+    passanger_id: { type: Schema.Types.ObjectId, ref: 'passangers', required: true },
+    driver_id: { type: Schema.Types.ObjectId, ref: 'drivers', required: true },
     status: {
       type: String,
       enum: EStatusRide,
@@ -42,4 +42,4 @@ RideSchema.index({ status: 1 });
 RideSchema.index({ driver_id: 1 });
 RideSchema.index({ 'rider.email': 1 });
 
-export const RideModel = model<IRideDocument>('Rides', RideSchema); 
+export const RideModel = model<IRideDocument>('rides', RideSchema); 
