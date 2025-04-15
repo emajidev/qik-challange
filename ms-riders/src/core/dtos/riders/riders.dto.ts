@@ -1,4 +1,4 @@
-// src/core/dtos/drivers/create-driver.dto.ts
+// src/core/dtos/riders/create-riders.dto.ts
 import { IsString, IsNotEmpty, IsNumber, IsArray, IsBoolean, IsOptional, ValidateNested, IsMongoId } from 'class-validator';
 import { PartialType } from '@nestjs/mapped-types';
 import { Type } from 'class-transformer'; // <-- Añade esta importación
@@ -31,7 +31,7 @@ export class LocationDto {
   coordinates: number[];
 }
 
-export class DriverDto {
+export class RidersDto {
   @ApiProperty({ example: '67fd78045f0b9754fac7767d', description: 'ID único' })
   _id: string;
 
@@ -63,7 +63,7 @@ export class DriverDto {
   updated_at: string;
 }
 
-export class CreateDriverDTO {
+export class CreateRidersDTO {
   @IsNotEmpty()
   @IsString()
   name: string;
@@ -90,7 +90,7 @@ export class CreateDriverDTO {
   available?: boolean;
 }
 
-export class UpdateDriverDTO extends PartialType(CreateDriverDTO) {
+export class UpdateRidersDTO extends PartialType(CreateRidersDTO) {
   @IsOptional()
   @IsArray()
   @IsNumber({}, { each: true })
@@ -106,4 +106,4 @@ export class FindByIdDTO {
   @IsMongoId()
   id: string
 }
-export class DriverPaginatedResponseDto extends createPaginatedResponseDto(DriverDto) { }
+export class RidersPaginatedResponseDto extends createPaginatedResponseDto(RidersDto) { }

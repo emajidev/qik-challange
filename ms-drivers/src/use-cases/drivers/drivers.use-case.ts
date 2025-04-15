@@ -40,7 +40,7 @@ export class DriverUseCases {
     return result
   }
 
-  getDriverById(id: any): Promise<IDriver | null> {
+  getDriverById(id: string): Promise<IDriver | null> {
     return this.driverRepository.findById(id);
   }
 

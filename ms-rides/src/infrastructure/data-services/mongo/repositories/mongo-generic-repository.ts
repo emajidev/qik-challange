@@ -1,6 +1,7 @@
 import { Document, Model, SortOrder, Types } from 'mongoose';
-import { IGenericRepository, PageDto, PageMetaDto, PageOptionsDto } from '../../../../core';
+import {  PageDto, PageMetaDto, PageOptionsDto } from '../../../../core';
 import { PageLinksDto } from 'src/core/dtos/pagination/page-links.dto';
+import { IGenericRepository } from 'src/core/abstracts/generic-repository.abstract';
 import { FilterPaginationQuery } from 'src/core/dtos/pagination/paginateRequest.dto';
 
 

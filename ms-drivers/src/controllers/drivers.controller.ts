@@ -1,6 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
-import { DriverPaginatedResponseDto, FindDriverByIdDTO, IDriver, PageDto } from 'src/core';
+import { DriverPaginatedResponseDto, FindByIdDTO, IDriver, PageDto } from 'src/core';
 import { FilterPaginationQuery, FilterPaginationQueryLocation } from 'src/core/dtos/pagination/paginateRequest.dto';
 import { DriverUseCases } from 'src/use-cases/drivers/drivers.use-case';
 
@@ -36,7 +36,7 @@ export class DriversController {
 
 
   @Get(':id')
-  async getById(@Param() filter: FindDriverByIdDTO) {
+  async getById(@Param() filter: FindByIdDTO) {
     return this.driverUseCases.getDriverById(filter?.id);
   }
 }

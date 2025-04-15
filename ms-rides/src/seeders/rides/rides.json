@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Carlos Mendoza",
+    "email": "carlos.mendoza@example.com",
+    "phone": "+51987654321",
+    "vehicle": {
+      "model": "Toyota Corolla",
+      "plate": "ABC123",
+      "color": "Blanco",
+      "year": 2020
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.02824, -12.04318]
+    },
+    "available": true,
+    "rating": 4.5
+  },
+  {
+    "name": "María Fernández",
+    "email": "maria.fernandez@example.com",
+    "phone": "+51987654322",
+    "vehicle": {
+      "model": "Nissan Sentra",
+      "plate": "DEF456",
+      "color": "Negro",
+      "year": 2019
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03012, -12.04567]
+    },
+    "available": true,
+    "rating": 4.8
+  },
+  {
+    "name": "Juan Pérez",
+    "email": "juan.perez@example.com",
+    "phone": "+51987654323",
+    "vehicle": {
+      "model": "Hyundai Accent",
+      "plate": "GHI789",
+      "color": "Rojo",
+      "year": 2021
+    },
+    "location": {
+      "type": "Point",
+      "coordinates": [-77.03245, -12.04231]
+    },
+    "available": false,
+    "rating": 4.2
+  }
+] 
